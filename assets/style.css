@@ -1,0 +1,67 @@
+.Name {
+    background-color: #4aaaa5;
+    padding: 20px;
+    float: left;
+    margin-left: 15%;
+    position: absolute;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background-image: url("https://i.imgur.com/0ifQmvB.png");
+  }
+
+  h1{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    border-bottom: 1px #cccccc solid;
+    background-color: #ffffff;
+    height: 75px;
+}
+
+.bio-pic {
+    float: left;
+    padding: 0px 20px 20px 0px;
+    width: 200px;
+}
+
+.about-me {
+    width: 960px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border: 1px #dddddd solid;
+    background-color: #ffffff;
+}
+
+p {
+    padding: 30px;
+    font-size: 18px;
+    color: gray;
+    line-height: 24px;
+}
+
+.footer {
+    background-color: #666666;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    border-top: 6px #4aaaa5 solid;
+}
+
+a {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    text-decoration: none;
+  }
