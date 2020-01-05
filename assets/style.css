@@ -40,11 +40,6 @@ body {
 }
 
 .about-me {
-    width: 960px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 10%;
     border: 1px #dddddd solid;
     background-color: #ffffff;
 }
@@ -56,14 +51,19 @@ p {
     line-height: 24px;
 }
 
-.footer {
-    background-color: #666666;
-    height: 60px;
+
+footer {
+    padding: 0px 0;
+    clear: both;
+    font-size: 12px;
+    color: #FFFFFF;
+    color: #CCCCCC;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4AAAA5;
+    height: 70px;
     width: 100%;
-    position: fixed;
-    bottom: 0px;
-    border-top: 6px #4aaaa5 solid;
-}
+  }
 
 a {
     color: grey;
@@ -93,21 +93,17 @@ hr{
 
 .portfolio {
     width: 960px;
-    height: 700px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    height: auto;
     border: 1px #dddddd solid;
     background-color: #ffffff;
-    position: relative;
+    padding: 20px;
   }
 
   .p1{
       width: 200px;
       height: 150px;
       background-image: url(http://lorempixel.com/200/150/);
-      padding-bottom: 10px;
+      padding-bottom: 20px;
    
 
   }
@@ -150,6 +146,6 @@ hr{
 
 }
 
-#paddingbottom {
-    padding-bottom: 10px;
-}
+.paddingspace {
+    padding: 20px;
+  }
